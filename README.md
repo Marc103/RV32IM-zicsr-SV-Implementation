@@ -1,4 +1,4 @@
-# RV32IM-zicsr-SV-Implementation
+# RV32IMF-zicsr-SV-Implementation
 ## Update!
 My initial goal was to make a traditional 5 stage pipeline processor. This is doable but after further reading, I've decided to up the ante to a a out-of-order execution processor. Due to complexity, most hardware
 developers aiming to be put their designs on FPGAs avoid devloping OoO processors because it would take too much resources. Using parameterization, I want to make the complexity adjustable. Mainly, to be able to 
